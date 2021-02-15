@@ -1,0 +1,76 @@
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+
+    max-width: 1000px;
+    background-color: antiquewhite;
+    margin: 0 auto;
+
+}
+header{
+
+}
+.header-contact{
+
+    float: right;
+    color:rgb(39, 39, 35);
+    padding: 30px;
+}
+.header-contact a{
+
+        text-decoration: none;
+        color: rgb(22, 27, 27);
+        font-weight: bold;
+}
+.header-contact a:hover{
+
+        text-decoration: underline;
+        color: rgb(37, 34, 4);
+
+
+
+}
+.profile-image{
+
+    width: 200px;
+    height: 150px;
+    border: 3px solid whitesmoke;
+    border-radius: 50%;
+    float:left;
+
+}
+
+.header-bio{
+
+    float: left;
+    padding: 30px;
+}
+h1,h2,h3,h4,h5,h6{
+    color:rgb(46, 43, 30);
+}
+
+.header-contact{
+
+    float: right;
+}
+.clear-div{
+
+    clear:both;
+}
+hr{
+
+    border: 3px solid black;
+    width: 100%;
+    margin: 20px auto;
+    border-bottom: none;
+
+}
